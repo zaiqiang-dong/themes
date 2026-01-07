@@ -23,7 +23,7 @@
  * Base States *
  ***************/
 .background {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
 }
 
@@ -1943,7 +1943,7 @@ searchbar > revealer > box {
   border-style: solid;
   border-width: 0 0 1px;
   border-color: rgba(239, 241, 245, 0.12);
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   background-clip: border-box;
   box-shadow: none;
 }
@@ -2047,7 +2047,7 @@ headerbar:disabled {
 }
 
 headerbar:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: rgba(239, 241, 245, 0.7);
   box-shadow: inset 0 1px rgba(239, 241, 245, 0.1);
 }
@@ -2255,11 +2255,11 @@ headerbar.default-decoration windowcontrols menubutton button {
 }
 
 window.devel headerbar {
-  background: #1e1e2e cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(166, 227, 161, 0.1)), linear-gradient(to top, #242437 3px, #28283d);
+  background: #1c1c1c cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(166, 227, 161, 0.1)), linear-gradient(to top, #242437 3px, #28283d);
 }
 
 window.devel headerbar:backdrop {
-  background: #1e1e2e cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#1e1e2e);
+  background: #1c1c1c cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#1c1c1c);
   /* background-color would flash */
 }
 
@@ -2458,12 +2458,12 @@ stack.view treeview.view {
  *********/
 menubar {
   padding: 0;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
 }
 
 menubar:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: rgba(239, 241, 245, 0.7);
 }
 
@@ -2969,7 +2969,7 @@ tabbar > revealer > box {
 }
 
 tabbar .box {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   background-image: none;
   padding: 0;
   margin: 0;
@@ -2980,7 +2980,7 @@ tabbar .box {
 }
 
 tabbar .box:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
 }
 
@@ -3088,7 +3088,7 @@ tabbar.inline .box:backdrop > .end-action {
 
 dnd tab {
   min-height: 24px;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
   box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.09), 0 2px 14px 3px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
   outline: 1px solid rgba(30, 30, 46, 0.75);
@@ -3667,7 +3667,7 @@ scale > trough > highlight {
 }
 
 scale > trough > highlight:disabled {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   background-image: image(rgba(239, 241, 245, 0.32));
 }
 
@@ -4766,7 +4766,7 @@ window.messagedialog .response-area button, window.dialog.message .dialog-action
 }
 
 window.dialog.message.background {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 window.dialog.message box.dialog-vbox.vertical {
@@ -4782,7 +4782,7 @@ window.dialog.message .titlebar {
   min-height: 24px;
   border-style: none;
   /* box-shadow: inset 0 1px highlight($surface); */
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
 }
 
@@ -5114,7 +5114,7 @@ paned > separator {
 paned > separator.wide {
   min-width: 6px;
   min-height: 6px;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   background-image: image(#4a4b5a), image(#4a4b5a);
   background-size: 1px 1px, 1px 1px;
 }
@@ -5381,7 +5381,7 @@ colorchooser .popover.osd:backdrop {
  * Misc *
  ********/
 .content-view {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 /**********************
@@ -5419,12 +5419,12 @@ window.solid-csd {
   margin: 0;
   padding: 2px;
   border-radius: 0;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   border: 1px solid #4a4b5a;
 }
 
 window.solid-csd:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 window.ssd {
@@ -5712,18 +5712,18 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window.view {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 .nautilus-window .sidebar-pane,
 .nautilus-window .content-pane {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
 }
 
 .nautilus-window .sidebar-pane:backdrop,
 .nautilus-window .content-pane:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   transition: none;
 }
 
@@ -5885,13 +5885,13 @@ row.activatable > cell {
 
 /* Nautilus Progress Indicator */
 windowhandle box.vertical box.toolbar {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   border: none;
   outline: none;
 }
 
 windowhandle box.toolbar menubutton button.toggle {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   border: none;
   outline: none;
 }
@@ -7007,7 +7007,7 @@ spinner.fade-in:checked {
 
 window > contents > leaflet > box > stack.background {
   background-color: transparent;
-  background-image: linear-gradient(to bottom, transparent, transparent 46px, #1e1e2e 46px, #1e1e2e);
+  background-image: linear-gradient(to bottom, transparent, transparent 46px, #1c1c1c 46px, #1c1c1c);
 }
 
 @define-color weather_temp_chart_fill_color rgba(223, 142, 29, 0.5);
@@ -7046,7 +7046,7 @@ window > contents > leaflet > box > stack.background {
 }
 
 .forecast-card separator {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 #daily-forecast-box > separator:last-child {
@@ -7131,7 +7131,7 @@ image.circular {
 }
 
 #gnome-system-monitor.background.csd {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 .large-button {
@@ -7358,7 +7358,7 @@ list.music-list {
 
 /* Nicotine+ */
 notebook scrolledwindow treeview.treeview-spacing {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 .account-switcher-row label {
@@ -7375,14 +7375,14 @@ window.background.chromium {
 
 window.background.chromium headerbar.header-bar.titlebar {
   padding: 0 12px;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
   border-radius: 12px 12px 0 0;
   box-shadow: inset 0 1px 0 rgba(239, 241, 245, 0.1);
 }
 
 window.background.chromium headerbar.header-bar.titlebar:backdrop {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: rgba(239, 241, 245, 0.5);
 }
 
@@ -7391,7 +7391,7 @@ window.background.chromium headerbar.header-bar.titlebar button.titlebutton {
 }
 
 .nautilus-window placessidebar > scrolledwindow {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
   border-radius: 0;
   /* margin: 0 6px 0 0; */
@@ -8164,7 +8164,7 @@ overlay-split-view > shadow.down {
 }
 
 .content-pane {
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
   color: #eff1f5;
   border-top-right-radius: 12px;
   /* box-shadow: inset 0 1px highlight($background); */
@@ -8311,7 +8311,7 @@ themeswitcher checkbutton radio, themeswitcher checkbutton radio:hover, themeswi
 }
 
 themeswitcher checkbutton.system {
-  background: linear-gradient(-45deg, #1e1e2e 50%, #eff1f5 50%);
+  background: linear-gradient(-45deg, #1c1c1c 50%, #eff1f5 50%);
 }
 
 themeswitcher checkbutton.light {
@@ -8321,7 +8321,7 @@ themeswitcher checkbutton.light {
 
 themeswitcher checkbutton.dark {
   color: #eff1f5;
-  background-color: #1e1e2e;
+  background-color: #1c1c1c;
 }
 
 /* GTK NAMED COLORS
@@ -8332,7 +8332,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general */
 @define-color theme_text_color #eff1f5;
 /* widget base background color */
-@define-color theme_bg_color #1e1e2e;
+@define-color theme_bg_color #1c1c1c;
 /* text widgets and the like base background color */
 @define-color theme_base_color #313244;
 /* base background color of selections */
@@ -8340,7 +8340,7 @@ themeswitcher checkbutton.dark {
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color rgba(30, 30, 46, 0.87);
 /* base background color of insensitive widgets */
-@define-color insensitive_bg_color #1e1e2e;
+@define-color insensitive_bg_color #1c1c1c;
 /* text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(239, 241, 245, 0.5);
 /* insensitive text widgets and the like base background color */
@@ -8350,7 +8350,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color #eff1f5;
 /* widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #1e1e2e;
+@define-color theme_unfocused_bg_color #1c1c1c;
 /* text widgets and the like base background color on backdrop windows */
 @define-color theme_unfocused_base_color #313244;
 /* base background color of selections on backdrop windows */
@@ -8373,8 +8373,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_unfocused_title rgba(239, 241, 245, 0.7);
 @define-color wm_highlight rgba(239, 241, 245, 0.1);
 @define-color wm_border #0a0a0e;
-@define-color wm_focused_bg #1e1e2e;
-@define-color wm_unfocused_bg #1e1e2e;
+@define-color wm_focused_bg #1c1c1c;
+@define-color wm_unfocused_bg #1c1c1c;
 @define-color wm_button_icon #eff1f5;
 @define-color wm_button_focused_bg #2b2b3a;
 @define-color wm_button_unfocused_bg #2b2b3a;
@@ -8504,14 +8504,14 @@ read if you used those and something break with a version upgrade you're on your
 @define-color error_bg_color #d20f39;
 @define-color error_fg_color #eff1f5;
 @define-color error_color #d20f39;
-@define-color window_bg_color #1e1e2e;
+@define-color window_bg_color #1c1c1c;
 @define-color window_fg_color #eff1f5;
 @define-color view_bg_color #313244;
 @define-color view_fg_color #eff1f5;
-@define-color headerbar_bg_color #1e1e2e;
+@define-color headerbar_bg_color #1c1c1c;
 @define-color headerbar_fg_color #eff1f5;
 @define-color headerbar_border_color rgba(239, 241, 245, 0.12);
-@define-color headerbar_backdrop_color #1e1e2e;
+@define-color headerbar_backdrop_color #1c1c1c;
 @define-color headerbar_shade_color rgba(239, 241, 245, 0.12);
 @define-color card_bg_color #313244;
 @define-color card_fg_color #eff1f5;
