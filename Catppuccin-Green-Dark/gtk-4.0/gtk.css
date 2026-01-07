@@ -73,11 +73,11 @@ iconview:selected,
 }
 
 textview text {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 textview border {
-  background-color: #313244;
+  background-color: #1f2824;
   color: rgba(239, 241, 245, 0.7);
 }
 
@@ -119,7 +119,7 @@ gridview > child box {
 
 coverflow cover {
   color: #949494;
-  background-color: #313244;
+  background-color: #1f2824;
   border: 1px solid black;
 }
 
@@ -234,7 +234,7 @@ window.assistant .sidebar label.highlight {
 popover.touch-selection > contents, popover.magnifier > arrow,
 popover.magnifier > contents, .osd {
   color: #949494;
-  background-color: #313244;
+  background-color: #1f2824;
   background-clip: padding-box;
   border-radius: 12px;
   border: none;
@@ -664,7 +664,7 @@ entry button.image-button {
 }
 
 treeview entry.flat, treeview entry {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 treeview entry.flat, treeview entry.flat:focus-within, treeview entry, treeview entry:focus-within {
@@ -1069,7 +1069,7 @@ button separator {
 }
 
 button.opaque {
-  background-color: #484856;
+  background-color: #1c1c1c;
   color: #949494;
 }
 
@@ -1147,7 +1147,7 @@ menubutton.pill > button, button.pill {
 }
 
 button.card {
-  background-color: #313244;
+  background-color: #1f2824;
   background-clip: padding-box;
   font-weight: inherit;
   border: 1px solid rgba(239, 241, 245, 0.12);
@@ -1419,7 +1419,7 @@ menubutton.destructive-action {
 }
 
 menubutton.opaque {
-  background-color: #484856;
+  background-color: #1c1c1c;
   color: #949494;
 }
 
@@ -1547,7 +1547,7 @@ splitbutton.destructive-action {
 }
 
 splitbutton.opaque {
-  background-color: #484856;
+  background-color: #1c1c1c;
   color: #949494;
 }
 
@@ -2439,7 +2439,7 @@ treeview.view header.button.dnd {
   border-color: rgba(239, 241, 245, 0.12);
   border-radius: 0;
   box-shadow: none;
-  background-color: #313244;
+  background-color: #1f2824;
   background-clip: border-box;
   color: #3eaf7c;
 }
@@ -2568,7 +2568,7 @@ popover > arrow,
 popover > contents {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   padding: 6px;
-  background-color: #232634;
+  background-color: #1c1c1c;
   border-radius: 12px;
   color: #949494;
   border: none;
@@ -2614,7 +2614,7 @@ popover > contents > box > button {
 
 popover .view:not(:selected),
 popover toolbar {
-  background-color: #232634;
+  background-color: #1c1c1c;
 }
 
 popover button,
@@ -2701,7 +2701,7 @@ popover modelbutton arrow.right {
 }
 
 magnifier {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 /*************
@@ -2738,7 +2738,7 @@ notebook > header > tabs > tab:disabled {
 notebook > header > tabs > tab:active {
   background-color: alpha(currentColor, 0.12);
   color: #949494;
-  background-color: #313244;
+  background-color: #1f2824;
   color: #949494;
   box-shadow: none;
 }
@@ -2759,7 +2759,7 @@ frame > paned > notebook > header, notebook.frame > header {
 }
 
 notebook, notebook.frame {
-  background-color: #313244;
+  background-color: #1f2824;
   background-color: rgba(239, 241, 245, 0.04);
   border-radius: 15px;
 }
@@ -3037,11 +3037,11 @@ tabbar undershoot {
 }
 
 tabbar undershoot.left {
-  background: linear-gradient(to right, #313244, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to right, #1f2824, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar undershoot.right {
-  background: linear-gradient(to left, #313244, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to left, #1f2824, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar .needs-attention-left undershoot.left {
@@ -3687,7 +3687,7 @@ scale > trough > slider {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 9999px;
   color: #3eaf7c;
-  background-color: #313244;
+  background-color: #1f2824;
   box-shadow: inset 0 0 0 2px #3eaf7c;
 }
 
@@ -3885,7 +3885,7 @@ window.dialog.print drawing {
 window.dialog.print drawing paper {
   padding: 0;
   border: 1px solid rgba(239, 241, 245, 0.12);
-  background-color: #313244;
+  background-color: #1f2824;
   color: #949494;
 }
 
@@ -4863,7 +4863,7 @@ window.messagedialog .response-area separator {
  ***********/
 .sidebar {
   border-style: none;
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 .sidebar listview.view,
@@ -4886,7 +4886,7 @@ stacksidebar.sidebar:dir(rtl), stacksidebar.sidebar.right, stacksidebar.sidebar.
 
 stacksidebar list {
   padding: 6px;
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 stacksidebar row {
@@ -5182,7 +5182,7 @@ infobar > revealer > box {
 }
 
 infobar.info > revealer > box, infobar.info:hover > revealer > box, infobar.info:backdrop > revealer > box {
-  background-color: #313244;
+  background-color: #1f2824;
   color: #949494;
 }
 
@@ -5479,7 +5479,7 @@ windowcontrols > button.minimize:backdrop:not(.suggested-action):not(.destructiv
 }
 
 windowcontrols > button.minimize:backdrop:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.maximize:backdrop:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.close:backdrop:not(.suggested-action):not(.destructive-action) > image {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 windowcontrols > button.minimize:backdrop:hover:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:backdrop:hover:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:backdrop:hover:not(.suggested-action):not(.destructive-action) {
@@ -5902,7 +5902,7 @@ window.dialog > box > stack > box > box > notebook.frame {
 }
 
 .display-container.card {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 .small .display-container.card {
@@ -5996,7 +5996,7 @@ popover.events box {
 }
 
 popover.events list {
-  background-color: #313244;
+  background-color: #1f2824;
   border-radius: 12px;
 }
 
@@ -6056,7 +6056,7 @@ popover.event-popover > contents {
 }
 
 .search-viewport {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 .calendar-list {
@@ -6235,7 +6235,7 @@ monthcell {
 }
 
 monthcell:hover:not(.out-of-month):not(.today) {
-  background-color: #313244;
+  background-color: #1f2824;
   transition: background-color 200ms;
   color: #949494;
 }
@@ -7263,7 +7263,7 @@ panelframeswitcher {
 
 .frameheader.header {
   min-height: 24px;
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 .frameheader.header > button {
@@ -7908,7 +7908,7 @@ preferencesgroup > box button.background-preview-button.toggle:checked {
 }
 
 preferencesgroup > box .cutout-button {
-  background-color: #313244;
+  background-color: #1f2824;
 }
 
 preferencesgroup > box button.accent-button {
@@ -8334,7 +8334,7 @@ themeswitcher checkbutton.dark {
 /* widget base background color */
 @define-color theme_bg_color #1c1c1c;
 /* text widgets and the like base background color */
-@define-color theme_base_color #313244;
+@define-color theme_base_color #1f2824;
 /* base background color of selections */
 @define-color theme_selected_bg_color #3eaf7c;
 /* text/foreground color of selections */
@@ -8344,7 +8344,7 @@ themeswitcher checkbutton.dark {
 /* text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(239, 241, 245, 0.5);
 /* insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #313244;
+@define-color insensitive_base_color #1f2824;
 /* widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color #949494;
 /* text color for entries, views and content in general on backdrop windows */
@@ -8352,7 +8352,7 @@ themeswitcher checkbutton.dark {
 /* widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #1c1c1c;
 /* text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #313244;
+@define-color theme_unfocused_base_color #1f2824;
 /* base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color #3eaf7c;
 /* text/foreground color of selections on backdrop windows */
@@ -8383,10 +8383,10 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_button_hover_bg #e6e9ef;
 @define-color wm_button_active_bg #e7eaf0;
 /* FIXME this is really an API */
-@define-color content_view_bg #313244;
+@define-color content_view_bg #1f2824;
 @define-color placeholder_text_color #b6b8c0;
 /* Very contrasty background for text views (@theme_text_color foreground) */
-@define-color text_view_bg #313244;
+@define-color text_view_bg #1f2824;
 @define-color budgie_tasklist_indicator_color rgba(121, 122, 133, 0.7);
 @define-color budgie_tasklist_indicator_color_active #3eaf7c;
 @define-color budgie_tasklist_indicator_color_active_window rgba(130, 174, 130, 0.816);
@@ -8506,17 +8506,17 @@ read if you used those and something break with a version upgrade you're on your
 @define-color error_color #d20f39;
 @define-color window_bg_color #1c1c1c;
 @define-color window_fg_color #949494;
-@define-color view_bg_color #313244;
+@define-color view_bg_color #1f2824;
 @define-color view_fg_color #949494;
 @define-color headerbar_bg_color #1c1c1c;
 @define-color headerbar_fg_color #949494;
 @define-color headerbar_border_color rgba(239, 241, 245, 0.12);
 @define-color headerbar_backdrop_color #1c1c1c;
 @define-color headerbar_shade_color rgba(239, 241, 245, 0.12);
-@define-color card_bg_color #313244;
+@define-color card_bg_color #1f2824;
 @define-color card_fg_color #949494;
 @define-color card_shade_color rgba(239, 241, 245, 0.12);
-@define-color dialog_bg_color #313244;
+@define-color dialog_bg_color #1f2824;
 @define-color dialog_fg_color #949494;
 @define-color popover_bg_color #292c3c;
 @define-color popover_fg_color #949494;
