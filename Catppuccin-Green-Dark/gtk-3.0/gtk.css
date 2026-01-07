@@ -3627,11 +3627,11 @@ filechooser .dialog-action-box {
 }
 
 filechooser treeview.view header > button {
-  background-color: #181825;
+  background-color: #1c1c1c;
 }
 
 filechooser #pathbarbox {
-  background-color: #181825;
+  background-color: #1c1c1c;
   border-radius: 12px 12px 0 0;
   margin: 0 4px;
 }
@@ -3642,7 +3642,7 @@ filechooser stack.view {
 }
 
 filechooser stack.view scrolledwindow {
-  background-color: #181825;
+  background-color: #1c1c1c;
   border-radius: 0 0 12px 12px;
 }
 
@@ -3669,7 +3669,7 @@ filechooser paned > separator {
 }
 
 filechooser paned box.vertical {
-  background-color: #181825;
+  background-color: #1c1c1c;
   border-radius: 12px;
   margin: 0 6px 0 1px;
 }
